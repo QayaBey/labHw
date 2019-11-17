@@ -1,0 +1,108 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.header-top {
+    background-color: #1abc9c;
+}
+.header-top div {
+   color: white;
+   padding: 80px;
+   text-align: center;
+}
+.header-top div h1{
+    font-size: 40p;
+}
+ .left{
+    padding: 13px;
+ }
+ .nav_bar{
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    color: white;
+ }
+ .nav_bar a{
+     float: left;
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 11px 20px;
+     text-decoration: none;
+ }
+ .nav_bar .right{
+     float: right;
+     overflow: auto;
+ }
+ .activee{
+    background-color: #666;
+ }
+.nav_bar .hoverr:hover{
+     color: black;
+     background-color: white;
+ }
+ .image_top{
+     height: 200px;
+     background-color: #aaa;
+     width: 100%;
+     padding: 20px;
+ }
+ .aside{
+     background-color: #f1f1f1;
+ }
+ .aside h2{
+    font-size: 1.5em;
+    font-weight: bold;
+ }
+ .aside h5{
+    font-size: 0.83em;
+    font-weight: bold;
+ }
+ .aside h3{
+    font-size: 1.17em;
+    font-weight: bold;
+ }
+ .image_bot{
+     height: 60px;
+     background-color: #aaa;
+     padding: 20px;
+     width: 100%;
+ }
+ .main h2{
+    font-size: 1.5em;
+    font-weight: bold;
+ }
+ .main h5{
+    font-size: 0.83em;
+    font-weight: bold;
+ }
+ .main p{
+     width: 100%;
+ }
+ footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+ }
+ footer h6{
+     font-size: 1.4em;
+     font-weight: bold;
+     padding-top: 20px;
+ }
+ @media screen and (max-width: 400px) {
+    .nav_bar a{
+        width: 100%;
+    }
+  }
+ .befor::before{
+     content: " responsive ";
+     font-weight: bold;
+ }
+ 
+
+
+
+
+
+
